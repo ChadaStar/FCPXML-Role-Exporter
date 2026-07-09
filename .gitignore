@@ -1,16 +1,12 @@
 # macOS
 .DS_Store
 
+# Build
+FCPXML Role Exporter.app/
+
 # Python
 __pycache__/
 *.py[cod]
-
-# Virtual Environment
-.venv/
-venv/
-
-# AppleScript
-*.scptd
 
 # Logs
 *.log
