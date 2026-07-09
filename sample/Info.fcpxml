@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.12">
+    <resources>
+        <format id="r1" frameDuration="1001/24000s" width="2160" height="3840" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r2" name="カスタム" uid=".../Generators.localized/Solids.localized/Custom.localized/Custom.motn"/>
+        <asset id="r3" name="Avatar IV Video 1" uid="5C37DD3DCB01FD4ED540FC8B426BF529" start="0s" duration="13880/1000s" hasVideo="1" format="r4" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="5C37DD3DCB01FD4ED540FC8B426BF529" src="file:///Users/hide/Movies/Lullaby%20of%20the%20Star%20Reader.fcpbundle/2026-01-09/Original%20Media/Avatar%20IV%20Video%201.mp4">
+                <bookmark>Ym9va+ADAAAAAAUQQAAAAG/Urz9/IeW+TqMFBQNtRY3NUzn7Wn8jvTffxJ9EPqJcAAAAAAAAAAAAAAAAAAAAAJwCAAAgAAAAAQIAAGTICFVr72NyREeSHeJpXgaBt/YgahzAXx5VjccJHegCBAAAAAMDAAAAGAAoBQAAAAEBAABVc2VycwAAAAQAAAABAQAAaGlkZQYAAAABAQAATW92aWVzAAAkAAAAAQEAAEx1bGxhYnkgb2YgdGhlIFN0YXIgUmVhZGVyLmZjcGJ1bmRsZQoAAAABAQAAMjAyNi0wMS0wOQAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAFQAAAAEBAABBdmF0YXIgSVYgVmlkZW8gMS5tcDQAAAAcAAAAAQYAADgAAABIAAAAVAAAAGQAAACQAAAApAAAALwAAAAIAAAABAMAALpQAAAAAAAACAAAAAQDAAABZVoAAAAAAAgAAAAEAwAA57d6AAAAAAAIAAAABAMAAFgD5xsAAAAACAAAAAQDAACRBOcbAAAAAAgAAAAEAwAAmgTnGwAAAAAIAAAABAMAAJ4E5xsAAAAAHAAAAAEGAAAAAQAAEAEAACABAAAwAQAAQAEAAFABAABgAQAACAAAAAAEAABBx4k654AAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAgAAAAEAAAAAwMAAAUAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD3AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAwCTi3AEAAAgAAAAABAAAQcfRzW+AAAAkAAAAAQEAADQzMTdGNTU5LUVDMDAtNDNCMC04MjBGLTI4MUVDNDEzMjVDRhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAA/AAAAP7///8BAAAAAAAAABQAAAAEEAAA3AAAAAAAAAAFEAAAcAEAAAAAAAAQEAAApAEAAAAAAABAEAAAlAEAAAAAAABUEAAAzAEAAAAAAABVEAAA2AEAAAAAAABWEAAAxAEAAAAAAAACIAAAkAIAAAAAAAAFIAAAAAIAAAAAAAAQIAAAEAIAAAAAAAARIAAARAIAAAAAAAASIAAAJAIAAAAAAAATIAAANAIAAAAAAAAgIAAAcAIAAAAAAAAwIAAAxAEAAAAAAAABwAAA5AEAAAAAAAARwAAASAAAAAAAAAASwAAA9AEAAAAAAAAQ0AAALAAAAAAAAACE8AAABAAAAAAAAAA=</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>Lavc59.37.100 libx264</string>
+                        <string>MPEG-4 AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-01-10 21:06:08 +0900"/>
+            </metadata>
+        </asset>
+        <format id="r4" name="FFVideoFormat720p25" frameDuration="100/2500s" width="1280" height="720" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r5" name="調整クリップ" uid="FFAdjustmentEffect"/>
+        <effect id="r6" name="フィルムグレイン" uid=".../Effects.localized/Stylize.localized/Film Grain.localized/Film Grain.moef"/>
+        <effect id="r7" name="カスタムLUT" uid="FxPlug:14B39AEF-607D-42DF-98DD-DB3DD345E925"/>
+        <effect id="r8" name="テキスト" uid=".../Titles.localized/Basic Text.localized/Text.localized/Text.moti"/>
+        <asset id="r9" name="Lullaby of the Star Reader" uid="C8F0A3F56B5CF574CB0A102D9F7799D4" start="0s" duration="8363519/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="C8F0A3F56B5CF574CB0A102D9F7799D4" src="file:///Users/hide/Movies/Lullaby%20of%20the%20Star%20Reader.fcpbundle/2026-01-09/Original%20Media/Lullaby%20of%20the%20Star%20Reader.wav">
+                <bookmark>Ym9va+gDAAAAAAUQQAAAANOOI/vcqHf9t3y5DuH3sgbF+9xPqxDIzGlmHyLIEd1nAAAAAAAAAAAAAAAAAAAAAKQCAAAgAAAAAQIAAAdwlk0qWRvHhyuhUHCWSdiFY6l8PLHxUGiI9xE7cnayBAAAAAMDAAAAGAAoBQAAAAEBAABVc2VycwAAAAQAAAABAQAAaGlkZQYAAAABAQAATW92aWVzAAAkAAAAAQEAAEx1bGxhYnkgb2YgdGhlIFN0YXIgUmVhZGVyLmZjcGJ1bmRsZQoAAAABAQAAMjAyNi0wMS0wOQAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAHgAAAAEBAABMdWxsYWJ5IG9mIHRoZSBTdGFyIFJlYWRlci53YXYAABwAAAABBgAAOAAAAEgAAABUAAAAZAAAAJAAAACkAAAAvAAAAAgAAAAEAwAAulAAAAAAAAAIAAAABAMAAAFlWgAAAAAACAAAAAQDAADnt3oAAAAAAAgAAAAEAwAAWAPnGwAAAAAIAAAABAMAAJEE5xsAAAAACAAAAAQDAACaBOcbAAAAAAgAAAAEAwAArATnGwAAAAAcAAAAAQYAAAgBAAAYAQAAKAEAADgBAABIAQAAWAEAAGgBAAAIAAAAAAQAAEHHhnocAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAACAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAADAJOLcAQAACAAAAAAEAABBx9HNb4AAACQAAAABAQAANDMxN0Y1NTktRUMwMC00M0IwLTgyMEYtMjgxRUM0MTMyNUNGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAD8AAAA/v///wEAAAAAAAAAFAAAAAQQAADkAAAAAAAAAAUQAAB4AQAAAAAAABAQAACsAQAAAAAAAEAQAACcAQAAAAAAAFQQAADUAQAAAAAAAFUQAADgAQAAAAAAAFYQAADMAQAAAAAAAAIgAACYAgAAAAAAAAUgAAAIAgAAAAAAABAgAAAYAgAAAAAAABEgAABMAgAAAAAAABIgAAAsAgAAAAAAABMgAAA8AgAAAAAAACAgAAB4AgAAAAAAADAgAADMAQAAAAAAAAHAAADsAQAAAAAAABHAAABIAAAAAAAAABLAAAD8AQAAAAAAABDQAAAsAAAAAAAAAITwAAAEAAAAAAAAAA==</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-01-09 16:06:23 +0900"/>
+            </metadata>
+        </asset>
+        <format id="r10" name="FFVideoFormat3840x2160p2398" frameDuration="1001/24000s" width="3840" height="2160" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r11" name="Avatar IV Video2" uid="B33ADFCB3203F6948FA6ADF86C9E0F3A" start="0s" duration="14560/1000s" hasVideo="1" format="r4" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="B33ADFCB3203F6948FA6ADF86C9E0F3A" src="file:///Users/hide/Movies/Lullaby%20of%20the%20Star%20Reader.fcpbundle/2026-01-09/Original%20Media/Avatar%20IV%20Video2.mp4">
+                <bookmark>Ym9va9wDAAAAAAUQQAAAAF96i6vupQMdRYjw5mJF4oVSbTS31bIRK1NfxzC5R9BcAAAAAAAAAAAAAAAAAAAAAJgCAAAgAAAAAQIAAFp0eFtgS+RfouF0qyqIVDOZQo8uAp5asTqYekIbj+s/BAAAAAMDAAAAGAAoBQAAAAEBAABVc2VycwAAAAQAAAABAQAAaGlkZQYAAAABAQAATW92aWVzAAAkAAAAAQEAAEx1bGxhYnkgb2YgdGhlIFN0YXIgUmVhZGVyLmZjcGJ1bmRsZQoAAAABAQAAMjAyNi0wMS0wOQAADgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAFAAAAAEBAABBdmF0YXIgSVYgVmlkZW8yLm1wNBwAAAABBgAAOAAAAEgAAABUAAAAZAAAAJAAAACkAAAAvAAAAAgAAAAEAwAAulAAAAAAAAAIAAAABAMAAAFlWgAAAAAACAAAAAQDAADnt3oAAAAAAAgAAAAEAwAAWAPnGwAAAAAIAAAABAMAAJEE5xsAAAAACAAAAAQDAACaBOcbAAAAAAgAAAAEAwAApQTnGwAAAAAcAAAAAQYAAPwAAAAMAQAAHAEAACwBAAA8AQAATAEAAFwBAAAIAAAAAAQAAEHHiTvxgAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAACAAAAAQAAAADAwAABQAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAADAJOLcAQAACAAAAAAEAABBx9HNb4AAACQAAAABAQAANDMxN0Y1NTktRUMwMC00M0IwLTgyMEYtMjgxRUM0MTMyNUNGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAD8AAAA/v///wEAAAAAAAAAFAAAAAQQAADYAAAAAAAAAAUQAABsAQAAAAAAABAQAACgAQAAAAAAAEAQAACQAQAAAAAAAFQQAADIAQAAAAAAAFUQAADUAQAAAAAAAFYQAADAAQAAAAAAAAIgAACMAgAAAAAAAAUgAAD8AQAAAAAAABAgAAAMAgAAAAAAABEgAABAAgAAAAAAABIgAAAgAgAAAAAAABMgAAAwAgAAAAAAACAgAABsAgAAAAAAADAgAADAAQAAAAAAAAHAAADgAQAAAAAAABHAAABIAAAAAAAAABLAAADwAQAAAAAAABDQAAAsAAAAAAAAAITwAAAEAAAAAAAAAA==</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>Lavc59.37.100 libx264</string>
+                        <string>MPEG-4 AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-01-10 21:06:15 +0900"/>
+            </metadata>
+        </asset>
+        <effect id="r12" name="ブラー" uid=".../Titles.localized/Build In:Out.localized/Blur.localized/Blur.moti"/>
+    </resources>
+    <library location="file:///Users/hide/Movies/Lullaby%20of%20the%20Star%20Reader.fcpbundle/">
+        <event name="2026-01-09" uid="FB8DEA96-19B1-474F-99DA-C99DE12C9C36">
+            <project name="歌ってみた 縦" uid="3218195D-3D19-412C-846F-785010203648" modDate="2026-01-10 21:34:44 +0900">
+                <sequence format="r1" duration="3403400/120000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="44.1k">
+                    <spine>
+                        <video ref="r2" offset="0s" name="カスタム" start="88148060/24000s" duration="3403400/120000s">
+                            <asset-clip ref="r3" lane="1" offset="88148060/24000s" name="Avatar IV Video 1" start="8/5s" duration="344344/24000s" format="r4" tcFormat="NDF" audioRole="dialogue">
+                                <conform-rate srcFrameRate="25"/>
+                                <timeMap>
+                                    <timept time="0s" value="0s" interp="smooth2"/>
+                                    <timept time="48/25s" value="0s" interp="smooth2"/>
+                                    <timept time="385278/25025s" value="21709187499/1564062500s" interp="smooth2"/>
+                                </timeMap>
+                                <adjust-crop mode="crop">
+                                    <crop-rect left="48.3889" right="73.1389"/>
+                                </adjust-crop>
+                                <adjust-volume amount="5dB"/>
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" active="0"/>
+                            </asset-clip>
+                            <video ref="r5" lane="2" offset="88148060/24000s" name="調整クリップ" start="88061974/24000s" duration="680680/24000s" role="adjustments">
+                                <filter-video ref="r6" name="フィルムグレイン">
+                                    <param name="Style" key="9999/987114367/100/999119356/2/100" value="1 (Realistic Grain)"/>
+                                </filter-video>
+                                <filter-video ref="r7" name="カスタムLUT" enabled="0">
+                                    <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
+                                    <param name="LUT" key="3" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIG96eG1sc2NlbmU+Cjxvem1sIHZlcnNpb249IjUuMTUiPgoKPGZhY3RvcnkgaWQ9IjEiIHV1aWQ9IjRkMGU0OGQ4NGZjYTQyNGQ4MmFhOThhMDI3YzZlYzVjIj4KCTxkZXNjcmlwdGlvbj5DaGFubmVsPC9kZXNjcmlwdGlvbj4KCTxtYW51ZmFjdHVyZXI+QXBwbGU8L21hbnVmYWN0dXJlcj4KCTx2ZXJzaW9uPjE8L3ZlcnNpb24+CjwvZmFjdG9yeT4KCgo8cGFyYW1ldGVyIG5hbWU9IkxVVCIgaWQ9IjMiIGZsYWdzPSI0Mjk1MDMyODQ4Ij4KCTxmbGFncz40Mjk1MDMyODQ4PC9mbGFncz4KCTxudW1iZXJPZktleXBvaW50cz4wPC9udW1iZXJPZktleXBvaW50cz4KCTxkZWZhdWx0VmFsPioqKioqKioqKjZVZU1iLWdPTEJvQTExSSpFNjEtKkk0LWtkTTc1TlpRYkJkUHF0Tjc0M21NcVZkUmFKbUowRm9Qci1NNzR4V09hSlhSNUFHKio0NGMzd0Uxb3RIR3FKdE5LRi1RYUJjT0xOWlFoMjYwSjZZQTYqLWNVZ0FKR0ZpUktsZ0kqVUY0V0VkQVhSN0gyeEZKM2MqKioqKioqKi0qRSoqKioqKioqKkIqKioqKioqKioqKioqKioqKioqKktrKio8L2RlZmF1bHRWYWw+Cgk8ZGF0YVZhbHVlPioqKioqKioqKjlVZU1iLWdPTEJvQTExSSpFNjEtKkk0LWtkTTc1TlpRYkJkUHF0Tjc0M21NcVZkUmFKbUowRm9Qci1NNzR4V09hSlhSNUFHKio0NGMzd0Uxb3RIR3FKdE5LRi1RYUJjT0xOWlFoMjYwSjZZQTYqLWNVZ0FKR0ZpUktsZ0xsKmlOSE1vTUhKWE5ITW5CWDJzQjQya0FuKnBBcU1uTktJa0JINm5CSEFtTXFJdUhIQWw2MG9VSWFKWDlYUWtDRVVGNFdFZEFYUjdIMnhGSjNjKioqKioqKiotKkUqKioqKioqKipCKioqKioqKioqKioqKioqKioqKipXayoqPC9kYXRhVmFsdWU+CjwvcGFyYW1ldGVyPgoKPC9vem1sPgo="/>
+                                    <param name="入力" key="100/101" value="0 (Rec. 709)"/>
+                                    <param name="出力" key="100/102" value="0 (Rec. 709)"/>
+                                </filter-video>
+                            </video>
+                            <title ref="r8" lane="3" offset="88148060/24000s" name="Karaha-Baruha, hear my voice - テキスト" start="86485399/24000s" duration="79079/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts1">Karaha-Baruha, hear my voice</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="4" offset="88148060/24000s" name="
+Lullaby of the 
+Star Reader
+— A Final Fantasy XI Tribute — - テキスト" start="87453366/24000s" duration="668668/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-78.983"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296712712/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296712712/404" value="-78.983"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296717023/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296717023/404" value="-78.983"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296717025/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296717025/404" value="-78.983"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 0 (上)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts2">
+Lullaby of the 
+Star Reader
+</text-style>
+                                    <text-style ref="ts3">— A Final Fantasy XI Tribute —</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="153.478" fontFace="H" fontColor="1 1 1 1" bold="1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" alignment="center" lineSpacing="-78.983"/>
+                                </text-style-def>
+                                <text-style-def id="ts3">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="63" fontFace="H" fontColor="1 1 1 1" bold="1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" alignment="center" lineSpacing="-78.983"/>
+                                </text-style-def>
+                            </title>
+                            <asset-clip ref="r9" lane="-1" offset="2644902800/720000s" name="Lullaby of the Star Reader" start="50093308/720000s" duration="19959400/720000s" format="r10" audioRole="dialogue">
+                                <adjust-volume>
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="40468/720000s"/>
+                                        <fadeOut type="easeIn" duration="356721/720000s"/>
+                                    </param>
+                                </adjust-volume>
+                                <marker start="79079/4800s" duration="1/44100s" value="マーカー 6"/>
+                                <marker start="379379/12000s" duration="1/44100s" value="マーカー 5"/>
+                                <marker start="191191/4000s" duration="1/44100s" value="マーカー 4"/>
+                                <marker start="1662661/24000s" duration="1/44100s" value="マーカー 3"/>
+                                <marker start="97097/1000s" duration="1/44100s" value="マーカー 2"/>
+                                <marker start="3176173/24000s" duration="1/44100s" value="マーカー 1"/>
+                            </asset-clip>
+                            <title ref="r8" lane="3" offset="88227139/24000s" name="Echoing through the sky - テキスト" start="86486400/24000s" duration="91091/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts4">Echoing through the sky</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="3" offset="88318230/24000s" name="You chose a fate, you chose us all - テキスト" start="86486400/24000s" duration="76076/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts5">You chose a fate, you chose us all</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="3" offset="88394306/24000s" name="And left my tears behind - テキスト" start="86486400/24000s" duration="91091/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts6">And left my tears behind</text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="3" offset="88485397/24000s" name="If you can see Windurst now - テキスト" start="86486400/24000s" duration="80080/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts7">If you can see Windurst now</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <asset-clip ref="r11" lane="1" offset="88492404/24000s" name="Avatar IV Video2" start="9/25s" duration="336336/24000s" format="r4" tcFormat="NDF" audioRole="dialogue">
+                                <conform-rate srcFrameRate="25"/>
+                                <timeMap>
+                                    <timept time="0s" value="0s" interp="smooth2"/>
+                                    <timept time="12879/910s" value="22772749999/1564062500s" interp="smooth2"/>
+                                </timeMap>
+                                <adjust-crop mode="crop">
+                                    <crop-rect left="48.3889" right="73.1389"/>
+                                </adjust-crop>
+                                <audio-channel-source srcCh="1, 2" role="dialogue.dialogue-1" active="0"/>
+                            </asset-clip>
+                            <title ref="r8" lane="3" offset="88565477/24000s" name="From where the heavens start - テキスト" start="86486400/24000s" duration="88088/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts8">From where the heavens start</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="3" offset="88653565/24000s" name="Then keep this fragile city safe - テキスト" start="86486400/24000s" duration="72072/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts9">Then keep this fragile city safe</text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r8" lane="3" offset="88725637/24000s" name="And hold my breaking heart - テキスト" start="86486400/24000s" duration="91091/24000s">
+                                <param name="レイアウト方法" key="9999/10003/13260/3296672360/2/314" value="1 (パラグラフ)"/>
+                                <param name="左余白" key="9999/10003/13260/3296672360/2/323" value="-1210"/>
+                                <param name="右余白" key="9999/10003/13260/3296672360/2/324" value="1210"/>
+                                <param name="上余白" key="9999/10003/13260/3296672360/2/325" value="2160"/>
+                                <param name="下余白" key="9999/10003/13260/3296672360/2/326" value="-2160"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/354/3296667315/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10003/13260/3296672360/2/354/3296667315/404" value="-19"/>
+                                <param name="自動縮小" key="9999/10003/13260/3296672360/2/370" value="3 (すべての余白へ)"/>
+                                <param name="配置" key="9999/10003/13260/3296672360/2/373" value="0 (左揃え) 1 (中央)"/>
+                                <param name="不透明度" key="9999/10003/13260/3296672360/4/3296673134/1000/1044" value="0"/>
+                                <param name="速度" key="9999/10003/13260/3296672360/4/3296673134/201/208" value="6 (カスタム)"/>
+                                <param name="カスタム速度" key="9999/10003/13260/3296672360/4/3296673134/201/209">
+                                    <keyframeAnimation>
+                                        <keyframe time="-469658744/1000000000s" value="0"/>
+                                        <keyframe time="12328542033/1000000000s" value="1"/>
+                                    </keyframeAnimation>
+                                </param>
+                                <param name="速度を適用" key="9999/10003/13260/3296672360/4/3296673134/201/211" value="2 (オブジェクトごと)"/>
+                                <param name="Text Build In Animation" key="9999/12677/100/13409/2/100" value="3 (Fade)"/>
+                                <text>
+                                    <text-style ref="ts10">And hold my breaking heart</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font="A-OTF TakaHand Std" fontSize="130" fontFace="M" fontColor="1 1 1 1" strokeColor="0.000202939 0.00783859 1.15652e-05 1" strokeWidth="-3" baseline="-138.032" alignment="center" lineSpacing="-19"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r12" lane="3" offset="88816728/24000s" name="Lullaby of the Star Reader - ブラー" start="86109023/24000s" duration="12012/24000s" role="video.video-1">
+                                <param name="Build In" key="9999/10000/2/101" value="0"/>
+                                <param name="Build Out" key="9999/10000/2/102" value="0"/>
+                                <param name="位置" key="9999/10002/10004/1/100/101" value="0.32 202.92"/>
+                                <param name="配置" key="9999/10002/10004/2/354/1002961524/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/1002961524/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556045/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556045/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556047/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556047/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556048/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556048/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556049/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556049/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556050/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556050/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556051/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556051/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556761/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556761/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296556763/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296556763/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296712669/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296712669/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296713129/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296713129/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296715283/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296715283/404" value="10"/>
+                                <param name="配置" key="9999/10002/10004/2/354/3296715309/401" value="1 (水平方向に中央揃え)"/>
+                                <param name="行間" key="9999/10002/10004/2/354/3296715309/404" value="10"/>
+                                <param name="不透明度" key="9999/10002/10004/4/10140/1000/1044" value="0"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10140/1007/1040" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10140/1011/1041" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10140/1016/1042" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10140/1020/1043" value="20 20"/>
+                                <param name="アニメート" key="9999/10002/10004/4/10140/201/203" value="1 (文字（スペースなし）)"/>
+                                <param name="In Spread" key="9999/10002/10004/4/10140/201/204" value="50"/>
+                                <param name="速度" key="9999/10002/10004/4/10140/201/208" value="2 (イーズアウト)"/>
+                                <param name="終点のオフセット" key="9999/10002/10004/4/10140/201/213" value="55"/>
+                                <param name="不透明度" key="9999/10002/10004/4/10207/1000/1044" value="0"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10207/1007/1040" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10207/1011/1041" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10207/1016/1042" value="20 20"/>
+                                <param name="ブラー" key="9999/10002/10004/4/10207/1020/1043" value="20 20"/>
+                                <param name="シーケンス処理" key="9999/10002/10004/4/10207/201/202" value="0 (終了)"/>
+                                <param name="アニメート" key="9999/10002/10004/4/10207/201/203" value="1 (文字（スペースなし）)"/>
+                                <param name="Out Spread" key="9999/10002/10004/4/10207/201/204" value="50"/>
+                                <param name="速度" key="9999/10002/10004/4/10207/201/208" value="2 (イーズアウト)"/>
+                                <param name="disableDRT" key="3733" value="1"/>
+                                <text>
+                                    <text-style ref="ts11">Lullaby of the Star Reader
+— A Final Fantasy XI Tribute —
+
+Words by ChadaStar
+Music and Arranged by Suno AI V5
+Singer by GUMI (Megpoid)
+
+Mac Pro Early 2009
+macOS Sequoia 15.1.1（24B91）
+Final Cut Pro X 11.1.1
+
+Illustrated by Google AI Studio
+Animated by Grok Create Image</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font="HiraMinDS" fontSize="20" fontFace="W2" fontColor="1 1 1 1" strokeColor="0 0 0 0.7938" strokeWidth="-4" alignment="center" lineSpacing="10"/>
+                                </text-style-def>
+                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203"/>
+                            </title>
+                        </video>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>
